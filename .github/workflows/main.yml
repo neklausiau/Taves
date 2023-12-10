@@ -1,0 +1,30 @@
+<title>stinky bean<title>
+<style>
+  canvas
+  border:1px solid blue;
+  background-color: #87ceeb;
+  }
+  </style>
+  </head>
+  <body>
+  <div id="canvas"></div>
+  <body onload="startGame()">
+  <h1>stinky bean</h1>
+  <script>
+  Var CanvasWidth = 600;
+  Var CanvasHeight = 400;
+
+  Funktion startgame() {
+  gameCanvas.start();
+  }
+  var gameCanvas = {
+  canvas: document.createElement("canvas")'
+  start: funktion() {
+  this.canvas.width = canvaskidth:
+  this.canvas.height = canvasHeight:
+this.context = this.canvas.getcontext("2d");
+document. body. insertBefore( this.canvas, document.body.childNodes[0]);
+   }
+}
+</script>
+<body>
